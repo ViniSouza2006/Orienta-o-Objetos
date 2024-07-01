@@ -9,56 +9,60 @@ class Clientes {
    private $pais;
    private $telefone;
 
-    //NOME= VERIFY
+    //NOME = VERIFY
     function set_nome($nome) {
         $this->nome = $nome;
     }
-    function get_nome() {
+        function get_nome() {
         return $this->nome;
     }
-    //NOME=
+    //NOME =
 
-    //ENDERECO= VERIFY
+    //ENDERECO = VERIFY
     function set_endereco($endereco) {
         $this->endereco = $endereco;
     }
-    function get_endereco($endereco) {
+        function get_endereco($endereco) {
         $this->endereco = $endereco;
     }
-    //ENDERECO=
+    //ENDERECO =
 
-    //CIDADE= VERIFY
+    //CIDADE = VERIFY
     function set_cidade($cidade) {
         $this->cidade = $cidade;
     }
-    function get_cidade($cidade) {
+        function get_cidade($cidade) {
         $this->cidade = $cidade;
     }
-    //CIDADE= 
+    //CIDADE = 
 
-    //CEP=
+    //CEP = VERIFY
     function set_CEP($CEP) {
         $this->CEP = $CEP;
     }
-    //CEP=
+        function get_CEP($CEP) {
+            $this->CEP = $CEP;
+        }
+    //CEP =
 
-    //UF=
+    //UF = 
     function set_UF($UF) {
         $this->UF = $UF;
     }
-    //UF=
 
-    //PAIS=
+    //UF =
+
+    //PAIS =
     function set_pais($pais) {
         $this->pais = $pais;
     }
-    //PAIS=
+    //PAIS =
 
-    //TELEFONE=
+    //TELEFONE =
     function set_telefone($telefone) {
         $this->telefone = $telefone;
     }
-    //TELEFONE=
+    //TELEFONE =
 }
 ?>
 
